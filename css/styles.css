@@ -1,0 +1,98 @@
+body {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    font-family: "Merienda", cursive;
+}
+
+nav>ul {
+    display: flex;
+    flex-direction: row;
+
+}
+
+nav>ul>li {
+    flex: 1;
+    display: inline-block;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+/* .menu-izquierdo{
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.menu-derecho{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.separado {
+    margin-left: 70px;
+}
+
+.separado01{
+    margin-right: 50px;
+} */
+
+
+
+h1 {
+    text-align: center;
+    color: #E7B71B;
+    font-size: 3.0em;
+    font-weight: bold;
+    font-family: "Great Vibes", cursive;
+}
+
+#presentacion {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+article {
+    text-align: center;
+}
+
+#imgprin {
+    width: 800px;
+    height: auto;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+#ubicacion{
+    width: 35%;
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+
+}
+
+#iconos {
+    width: 25%;
+    text-align: right;
+}
