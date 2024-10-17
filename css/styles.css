@@ -82,3 +82,26 @@ footer img {
 #vacio{
     width: 35%;
 }
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: black;
+  }
+  
+  .dropdown li {
+    float: none;
+    background-color: black;
+  }
+  
+  .dropdown li a {
+    background-color: black;
+  }
+  
+  nav li:hover .dropdown {
+    display: block;
+  }
