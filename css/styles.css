@@ -49,10 +49,13 @@ article {
 }
 
 #imgprin {
-    width: 600px;
-    height: auto;
+    width: auto;
+    height: 90%;
 }
 
+#artimgprin{
+    flex: 1;
+}
 
 a {
     text-decoration: none;
@@ -99,15 +102,17 @@ footer img {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     background-color: black;
+    list-style: none;
 }
 
 .dropdown li {
     float: none;
     background-color: black;
+    padding: 10px;
 }
 
 .dropdown li a {
-    background-color: black;
+    background-color: inherit;
 }
 
 nav li:hover .dropdown {
@@ -141,10 +146,17 @@ nav li:hover .dropdown {
     margin-left: auto;
     margin-right: auto;
     gap: 6em;
+    margin-top: 45px;
+    gap: 25%;
 }
 
 #divmv h2 {
     text-align: center;
+}
+
+#maincentrado{
+    display: flex;
+    flex-direction: column;
 }
 
 #mainnosotros {
@@ -157,6 +169,42 @@ nav li:hover .dropdown {
     text-align: justify;
 }
 
+#parte01{
+    margin-top: 45px;
+}
+
 main{
    flex: 1;
+}
+
+figure figubicanos{
+    text-align: center;
+    height: 100%;
+    width: auto;
+}
+
+.h100{
+    height: 100%;
+}
+
+#imgubicacion{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#vacio{
+    text-align: right;
+}
+
+.tc{
+    text-align: left;
+    letter-spacing: 6px;
+    font-size: 60pt;
+}
+
+.h2texto{
+    letter-spacing: 6px;
+    color: #E7B71B;
+    font-size: 30pt;
 }
