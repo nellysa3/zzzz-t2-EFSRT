@@ -13,7 +13,8 @@
 
 <body>
     <header>
-        <nav>
+        <nav id="navbar">
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../paginas/nosotros.html">Nosotros</a></li>
@@ -75,6 +76,12 @@
         </div>
         <div id="vacio"></div>
     </footer>
+    <script>
+        function toggleMenu() {
+            var nav = document.getElementById('navbar');
+            nav.classList.toggle('active');
+        }
+    </script>
 </body>
 
 </html>

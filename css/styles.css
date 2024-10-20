@@ -296,6 +296,11 @@ figure figubicanos {
     nav.active ul li {
         display: block;
     }
+
+    #divmv{
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
 }
 
 /* Tabletas (769px a 1024px) */
