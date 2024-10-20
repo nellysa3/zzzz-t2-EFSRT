@@ -13,7 +13,8 @@
 
 <body>
     <header>
-        <nav>
+        <nav id="navbar">
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="paginas/nosotros.html">Nosotros</a></li>
@@ -22,7 +23,7 @@
                         <li><a href="paginas/tratamiento01.html">Limpieza Facial</a></li>
                         <li><a href="paginas/tratamiento02.html">Plasma Rico en Plaquetas</a></li>
                         <li><a href="paginas/tratamiento03.html">Botox Facial</a></li>
-                      </ul>
+                    </ul>
                 </li>
                 <li><a href="paginas/ubicacion.html">Ubicanos</a></li>
                 <li><a href="paginas/contactanos.html">Contáctanos</a></li>
@@ -42,10 +43,11 @@
             </div>
         </section>
         <article id="artimgprin">
-            <img id="imgprin" src="imagenes/portada.jpg" alt="" class="h100">
+            <img id="imgprin" src="imagenes/portada.jpg" alt="">
+            <img id="imgprin2" src="imagenes/silueta.jpg" alt="">
         </article>
     </main>
-    
+
     <footer>
         <div id="ubicacion">
             <i class="fas fa-map-marker-alt"></i> Av. tumbes 313, Zarumilla, Tumbes, Perú
@@ -58,5 +60,12 @@
         </div>
         <div id="vacio"></div>
     </footer>
+    <script>
+        function toggleMenu() {
+            var nav = document.getElementById('navbar');
+            nav.classList.toggle('active');
+        }
+    </script>
 </body>
+
 </html>
