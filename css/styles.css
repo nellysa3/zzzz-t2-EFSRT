@@ -30,7 +30,6 @@ header{
 
 /*Menu Hamburguesa*/
 nav {
-    background-color: #333;
     overflow: hidden;
 }
 
@@ -330,11 +329,17 @@ figure figubicanos {
 }
 
 /* Tabletas (769px a 1024px) */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-    body {}
-}
-
-/* Pantallas grandes (más de 1200px) */
-@media only screen and (min-width: 1201px) {
-    body {}
+@media only screen and (min-width: 769px){
+    nav>ul {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    nav>ul>li {
+        flex: 1;
+        display: inline-block;
+        margin-left: 0px;
+        text-decoration: none;
+    }
 }
