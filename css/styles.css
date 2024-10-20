@@ -166,7 +166,7 @@ nav li:hover .dropdown {
 #maintto {
     display: flex;
     flex-direction: row;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 #maintto>div {
@@ -312,6 +312,18 @@ figure figubicanos {
     }
     #maintto>div {
         width: 100%;
+    }
+    #divtto {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #divtto p {
+        text-align: justify;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #divtto h2 {
+        padding-left: 1rem;
     }
 }
 
