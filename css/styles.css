@@ -301,6 +301,13 @@ figure figubicanos {
         flex-direction: column;
         margin-bottom: 3rem;
     }
+    #maintto {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+    #maintto>div {
+        width: 100%;
+    }
 }
 
 /* Tabletas (769px a 1024px) */
