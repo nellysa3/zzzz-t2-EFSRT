@@ -16,6 +16,10 @@ body {
     min-height: 100vh;
 }
 
+h1{
+    width: 100%;
+}
+
 header{
     margin: 0px;
 }
@@ -162,6 +166,7 @@ nav li:hover .dropdown {
 #maintto {
     display: flex;
     flex-direction: row;
+    overflow-x: hidden;
 }
 
 #maintto>div {
