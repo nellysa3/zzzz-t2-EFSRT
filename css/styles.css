@@ -428,3 +428,11 @@ figure figubicanos {
     display: grid;
     place-items: center;
 }
+
+#contactodiv {
+    font-size: 28px;
+}
+
+#maintto h1{
+   font-size: 55pt;
+}
