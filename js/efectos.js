@@ -6,4 +6,3 @@ function toggleMenu() {
 function registrarCita(){
     alert("Registrado exitosamente")
 }
-
