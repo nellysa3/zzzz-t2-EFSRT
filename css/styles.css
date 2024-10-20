@@ -9,7 +9,7 @@ body {
 
 body {
     margin-top: 0px;
-    width: 769px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
     background-color: black;
@@ -284,8 +284,8 @@ figure figubicanos {
     background-position: right;
 }
 
-/* Dispositivos móviles grandes (a 768px) */
-@media only screen and (max-width: 768px) {
+/* Dispositivos móviles grandes (a 800px) */
+@media only screen and (max-width: 799px) {
     body {
         width: 100%;
     }
@@ -380,7 +380,7 @@ figure figubicanos {
 }
 
 /* Tabletas (769px a 1024px) */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 800px) {
     nav>ul {
         display: flex;
         flex-direction: row;
