@@ -3,24 +3,27 @@ body {
     height: 100%;
 }
 
+* {
+    font-family: "Merienda", cursive;
+}
+
 body {
     margin-top: 0px;
-    width: 1024px;
+    width: 769px;
     margin-left: auto;
     margin-right: auto;
     background-color: black;
-    font-family: "Merienda", cursive;
     color: white;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-h1{
+h1 {
     width: 100%;
 }
 
-header{
+header {
     margin: 0px;
 }
 
@@ -54,6 +57,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #575757;
 }
+
 /**/
 
 h1 {
@@ -251,7 +255,36 @@ figure figubicanos {
     font-size: 30pt;
 }
 
-/* Dispositivos móviles grandes (601px a 768px) */
+.frm_group {
+    display: flex;
+    justify-content: space-between;
+}
+
+#formu {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#btnregistrar {
+    flex: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3rem;
+    width: 50%;
+    background-color: #EC96D5;
+    font-size: larger;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#maincontactanos {
+    background-image: url("../imagenes/imgfondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* Dispositivos móviles grandes (a 768px) */
 @media only screen and (max-width: 768px) {
     body {
         width: 100%;
@@ -299,47 +332,79 @@ figure figubicanos {
         display: block;
     }
 
-    #divmv{
+    #divmv {
         flex-direction: column;
         margin-bottom: 3rem;
     }
+
     #maintto {
         flex-direction: column-reverse;
         justify-content: flex-end;
     }
+
     #maintto>div {
         width: 100%;
     }
+
     #divtto {
         padding-left: 0px;
         padding-right: 0px;
     }
+
     #divtto p {
         text-align: justify;
         padding-left: 1rem;
         padding-right: 1rem;
     }
+
     #divtto h2 {
         padding-left: 1rem;
     }
-    .dropdown{
+
+    .dropdown {
         margin-left: 25%;
         margin-top: -3rem;
+    }
+
+    .frm_group {
+        flex-direction: column;
+    }
+
+    .frm_group>* {
+        height: 2rem;
+    }
+
+    #btnregistrar {
+        width: 60%;
     }
 }
 
 /* Tabletas (769px a 1024px) */
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: 769px) {
     nav>ul {
         display: flex;
         flex-direction: row;
-    
+
     }
-    
+
     nav>ul>li {
         flex: 1;
         display: inline-block;
         margin-left: 0px;
         text-decoration: none;
+    }
+
+    .frm_group {
+        flex-direction: row;
+        padding-bottom: 1%;
+        padding-top: 1%;
+    }
+
+    .frm_group>* {
+        flex: 1;
+    }
+
+    #btnregistrar {
+        margin-top: 1rem;
     }
 }
